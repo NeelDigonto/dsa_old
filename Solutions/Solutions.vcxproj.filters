@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\EntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\169.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\229.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\139.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\187.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\48.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\149.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree\112.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree\LeetCodeTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree\111.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sorting\2035.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\1007.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree\297.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree\BinaryTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ordered_set\729.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blind75\tree\SerializeDeserializeTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StringDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array\CanPlaceFlowers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blind75\tree\MaximumDepthBinaryTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blind75\tree\SameTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blind75\tree\InvertBinaryTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blind75\tree\MaximumPathSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blind75\tree\LevelOrderTraversal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graph\PathInGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graph\FindTheTownJudge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graph\CenterOfStarGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\ClimbingStairs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\Fibonacci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\FrogJump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\HouseRobber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\HouseRobber2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\MatrixChainMultiplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\NQueen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\NQueen2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\NinjaTraining.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\linked_list\ListIntersection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array\Merge2SortedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array\TwoSumSortedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\string\LongestSubstrWithoutRep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\biweekly\80\StrongPasswordChecker2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\biweekly\80\6096.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\biweekly\80\6097.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\biweekly\80\6098.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\FrogJump2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\techgig\WorldArmyVsAliens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\techgig\ChantuBantu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array\SlidingWindowMaximum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array\Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\weekly\298\A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\weekly\298\B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\weekly\298\C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\weekly\298\D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
