@@ -1,5 +1,6 @@
 #pragma once
 #include <core/Common.h>
+#include <core/test/GraphTests.h>
 
 //#include "1.h"
 //#include "3.h"
@@ -16,8 +17,9 @@
 //#include "sorting/2035.h"
 
 #include "graph/PathInGraph.h"
-#include <graph/FindTheTownJudge.h>
-#include <graph/CenterOfStarGraph.h>
+#include "graph/FindTheTownJudge.h"
+#include "graph/CenterOfStarGraph.h"
+#include "graph/IsGraphBipartite.h"
 
 #include "dp/Fibonacci.h"
 #include "dp/ClimbingStairs.h"
@@ -25,6 +27,19 @@
 #include "dp/HouseRobber.h"
 #include "dp/HouseRobber2.h"
 #include "dp/NinjaTraining.h"
+#include "dp/UniquePaths.h"
+#include "dp/UniquePaths2.h"
+#include "dp/MinimumPathSum.h"
+#include "dp/Triangle.h"
+#include "dp/MinimumPathCostGrid.h"
+#include "dp/CherryPickup.h"
+#include "dp/SubsetSumToK.h"
+
+#include "tree/IsValidBST.h"
+#include "tree/LowestCommonAncestor.h"
+
+#include "string/SubstrConcatAllWords.h"
+
 
 #include "linked_list/ListIntersection.h"
 
@@ -35,6 +50,9 @@
 #include "array/Merge2SortedArray.h"
 #include "array/TwoSumSortedArray.h"
 #include "array/SlidingWindowMaximum.h"
+#include "array/SetMatrixZeroes.h"
+#include "array/PascalTraingle.h"
+#include "array/NextPermutation.h"
 
 #include "string/LongestSubstrWithoutRep.h"
 
@@ -51,8 +69,20 @@
 #include "techgig/WorldArmyVsAliens.h"
 #include "techgig/ChantuBantu.h"
 
-#include <array/Test.h>
+#include "contest/biweekly/81/A.h"
+#include "contest/biweekly/81/B.h"
+#include "contest/biweekly/81/C.h"
+#include "contest/biweekly/81/D.h"
 
+#include "contest/weekly/299/A.h"
+#include "contest/weekly/299/B.h"
+#include "contest/weekly/299/C.h"
+#include "contest/weekly/299/D.h"
+
+#include "trie/ImplementTrie.h"
+#include "trie/ImplementTrie2.h"
+
+#include "tree/SortedArrayToBST.h"
 
 int main() {
 
@@ -67,6 +97,7 @@ int main() {
 	//PathInGraph::test();
 	//FindTheTownJudge::test();
 	//CenterOfStarGraph::test();
+
 
 	/* Dynamic Programming*/
 
@@ -91,7 +122,25 @@ int main() {
 	//NinjaTraining::test();
 
 	// 8. https://leetcode.com/problems/unique-paths/
-	UniquePaths::test();
+	//UniquePaths::test();
+
+	// 9. https://leetcode.com/problems/unique-paths-ii/
+	//UniquePaths2::test();
+
+	//10. https://leetcode.com/problems/minimum-path-sum/
+	//MinimumPathSum::test();
+
+	//11. https://leetcode.com/problems/triangle/
+	//Triangle::test();
+
+	//12. https://leetcode.com/problems/minimum-path-cost-in-a-grid/
+	//MinimumPathCostGrid::test();
+
+	//13. https://leetcode.com/problems/cherry-pickup/
+	//CherryPickup::test();
+
+	//14. https://www.codingninjas.com/codestudio/problems/subset-sum-equal-to-k_1550954
+	//SubsetSumToK::test();
 
 	//MatriXChainMultiplication::test();
 	//NQueen::test();
@@ -101,7 +150,9 @@ int main() {
 	//TwoSumSortedArray::test();
 	//LongestSubstrWithoutRep::test();
 	//SlidingWindowMaximum::test();
-	//Test::test();
+	//SetMatrixZeroes::test();
+	//PascalTraingle::test();
+	//NextPermutation::test();
 
 	//StrongPasswordChecker2::test();
 	//Q6096::test();
@@ -113,8 +164,36 @@ int main() {
 	//W298C::test();
 	//W298D::test();
 
+	//BW81A::test();
+	//BW81B::test();
+	//BW81C::test();
+	//BW81D::test();
+
+	//W299A::test();
+	//W299B::test();
+	//W299C::test();
+	//W299D::test();
+
+	//GraphTests::test();
+
+	// https://leetcode.com/problems/is-graph-bipartite/
+	//IsGraphBipartite::test();
+
+
+	// 1. https://leetcode.com/problems/implement-trie-prefix-tree/
+	//ImplementTrie::test();
+
+	// 2. https://www.codingninjas.com/codestudio/problems/implement-trie_1387095
+	//ImplementTrie2::test();
+
+	//LowestCommonAncestor::test();
+
+	//SubstrConcatAllWords::test()
+
+	//SortedArrayToBST::test();
+
+	//IsValidBST::test();
 
 	return 0;
 
 }
-

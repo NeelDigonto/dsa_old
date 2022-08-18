@@ -182,6 +182,102 @@
     <ClInclude Include="src\contest\weekly\298\D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\dp\UniquePaths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array\SetMatrixZeroes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array\PascalTraingle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array\NextPermutation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array\TwoSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\UniquePaths2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\MinimumPathCostGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\MinimumPathSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\Triangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\biweekly\81\A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\biweekly\81\B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\biweekly\81\C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\biweekly\81\D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\CherryPickup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\weekly\299\A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\weekly\299\B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\weekly\299\C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contest\weekly\299\D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\test\GraphTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trie\ImplementTrie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trie\ImplementTrie2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\codechef\E.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gfg\PoliceStation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Trie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\vector_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graph\IsGraphBipartite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree\SortedArrayToBST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dp\SubsetSumToK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree\IsValidBST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree\LowestCommonAncestor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\string\SubstrConcatAllWords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

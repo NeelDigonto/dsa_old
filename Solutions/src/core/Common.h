@@ -15,9 +15,9 @@
 #include <utility>
 #include <variant>
 
-#include <memory>
-#include <memory_resource>
-#include <scoped_allocator>
+//#include <memory>
+//#include <memory_resource>
+//#include <scoped_allocator>
 #include <climits>
 #include <limits>
 
@@ -43,7 +43,7 @@
 #include <iterator>
 
 #include <algorithm>
-#include <execution>
+//#include <execution>
 
 #include <cmath>
 #include <complex>
@@ -68,18 +68,28 @@ using namespace std;
 using sz = std::size_t;
 */
 
-using namespace std;
+#include <core/Trie.h>
+
 
 using sz = std::size_t;
 
 template<typename T>
-ostream& operator << (ostream& os, const vector<T>& v) {
+std::ostream& operator << (std::ostream& os, const std::vector<T>& v) {
 	os << "[ ";
 	for (auto it = v.cbegin(); it != v.cend(); ++it)
 		os << *it << " ";
 	os << "]";
 	return os;
 }
+
+template<typename T>
+std::ostream& operator << (std::ostream& os, const std::vector<vector<T>>& v) {
+	for (auto row = v.cbegin(); row != v.cend(); ++row)
+		os << *row << std::endl;
+	return os;
+}
+
+
 
 namespace util {
 
@@ -139,35 +149,6 @@ namespace util {
 		return new_iterable;
 	}
 
-	template<typename Wt>
-	class UDGAdjMat {
-	public:
-		using node_t = size_t;
-		struct Edge {
-			node_t u;
-			node_t v;
-			Wt fwdWt;
-			Wt bckWt;
-		};
-	private:
-		vector<vector<optional<Wt>>> graph_;
-	public:
-		UDGAdjMat() = delete;
-		UDGAdjMat(size_t N) {
-			graph_ = vector<vector<optional<Wt>>>(N, vector<optional<Wt>>(N, nullopt));
-		}
-		void addEdge(Edge _edge) {
-			graph_[_edge.u][_edge.v] = _edge.fwdWt;
-			graph_[_edge.v][_edge.u] = _edge.bckWt;
-		}
-
-		vector<Wt> getEdges() const noexcept {
-			
-		}
-
-		void printEdge() {
-
-		}
-	};
-
 }
+
+

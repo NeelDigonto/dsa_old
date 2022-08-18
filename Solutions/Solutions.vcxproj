@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Microsoft.Windows.CppWinRT.2.0.210806.1\build\native\Microsoft.Windows.CppWinRT.props" Condition="Exists('..\packages\Microsoft.Windows.CppWinRT.2.0.210806.1\build\native\Microsoft.Windows.CppWinRT.props')" />
   <ItemGroup Label="ProjectConfigurations">
@@ -159,9 +159,14 @@
     <ClInclude Include="src\1007.h" />
     <ClInclude Include="src\array\CanPlaceFlowers.h" />
     <ClInclude Include="src\array\Merge2SortedArray.h" />
+    <ClInclude Include="src\array\NextPermutation.h" />
+    <ClInclude Include="src\array\PascalTraingle.h" />
+    <ClInclude Include="src\array\SetMatrixZeroes.h" />
     <ClInclude Include="src\array\SlidingWindowMaximum.h" />
     <ClInclude Include="src\array\Test.h" />
+    <ClInclude Include="src\array\TwoSum.h" />
     <ClInclude Include="src\array\TwoSumSortedArray.h" />
+    <ClInclude Include="src\codechef\E.h" />
     <ClInclude Include="src\contest\biweekly\80\6096.h" />
     <ClInclude Include="src\contest\biweekly\80\6097.h" />
     <ClInclude Include="src\contest\biweekly\80\6098.h" />
@@ -172,11 +177,24 @@
     <ClInclude Include="src\blind75\tree\MaximumPathSum.h" />
     <ClInclude Include="src\blind75\tree\SameTree.h" />
     <ClInclude Include="src\blind75\tree\SerializeDeserializeTree.h" />
+    <ClInclude Include="src\contest\biweekly\81\A.h" />
+    <ClInclude Include="src\contest\biweekly\81\B.h" />
+    <ClInclude Include="src\contest\biweekly\81\C.h" />
+    <ClInclude Include="src\contest\biweekly\81\D.h" />
     <ClInclude Include="src\contest\weekly\298\A.h" />
     <ClInclude Include="src\contest\weekly\298\B.h" />
     <ClInclude Include="src\contest\weekly\298\C.h" />
     <ClInclude Include="src\contest\weekly\298\D.h" />
+    <ClInclude Include="src\contest\weekly\299\A.h" />
+    <ClInclude Include="src\contest\weekly\299\B.h" />
+    <ClInclude Include="src\contest\weekly\299\C.h" />
+    <ClInclude Include="src\contest\weekly\299\D.h" />
     <ClInclude Include="src\core\Common.h" />
+    <ClInclude Include="src\core\Graph.h" />
+    <ClInclude Include="src\core\test\GraphTests.h" />
+    <ClInclude Include="src\core\Trie.h" />
+    <ClInclude Include="src\core\vector_math.h" />
+    <ClInclude Include="src\dp\CherryPickup.h" />
     <ClInclude Include="src\dp\ClimbingStairs.h" />
     <ClInclude Include="src\dp\Fibonacci.h" />
     <ClInclude Include="src\dp\FrogJump.h" />
@@ -184,17 +202,26 @@
     <ClInclude Include="src\dp\HouseRobber.h" />
     <ClInclude Include="src\dp\HouseRobber2.h" />
     <ClInclude Include="src\dp\MatrixChainMultiplication.h" />
+    <ClInclude Include="src\dp\MinimumPathCostGrid.h" />
+    <ClInclude Include="src\dp\MinimumPathSum.h" />
     <ClInclude Include="src\dp\NinjaTraining.h" />
     <ClInclude Include="src\dp\NQueen.h" />
     <ClInclude Include="src\dp\NQueen2.h" />
+    <ClInclude Include="src\dp\SubsetSumToK.h" />
+    <ClInclude Include="src\dp\Triangle.h" />
+    <ClInclude Include="src\dp\UniquePaths.h" />
+    <ClInclude Include="src\dp\UniquePaths2.h" />
+    <ClInclude Include="src\gfg\PoliceStation.h" />
     <ClInclude Include="src\graph\CenterOfStarGraph.h" />
     <ClInclude Include="src\graph\FindTheTownJudge.h" />
+    <ClInclude Include="src\graph\IsGraphBipartite.h" />
     <ClInclude Include="src\graph\PathInGraph.h" />
     <ClInclude Include="src\linked_list\ListIntersection.h" />
     <ClInclude Include="src\ordered_set\729.h" />
     <ClInclude Include="src\sorting\2035.h" />
     <ClInclude Include="src\StringDecode.h" />
     <ClInclude Include="src\string\LongestSubstrWithoutRep.h" />
+    <ClInclude Include="src\string\SubstrConcatAllWords.h" />
     <ClInclude Include="src\techgig\ChantuBantu.h" />
     <ClInclude Include="src\techgig\WorldArmyVsAliens.h" />
     <ClInclude Include="src\tree\111.h" />
@@ -208,7 +235,12 @@
     <ClInclude Include="src\3.h" />
     <ClInclude Include="src\tree\297.h" />
     <ClInclude Include="src\tree\BinaryTree.h" />
+    <ClInclude Include="src\tree\IsValidBST.h" />
     <ClInclude Include="src\tree\LeetCodeTree.h" />
+    <ClInclude Include="src\tree\LowestCommonAncestor.h" />
+    <ClInclude Include="src\tree\SortedArrayToBST.h" />
+    <ClInclude Include="src\trie\ImplementTrie.h" />
+    <ClInclude Include="src\trie\ImplementTrie2.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
