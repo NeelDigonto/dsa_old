@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "configurations": [
+    {
+      "name": "C++ Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/kickstart_2022_E_B",
+      "args": ["arg1", "arg2"],
+      "environment": [{ "name": "config", "value": "Debug" }],
+      "cwd": "${workspaceFolder}/build"
+    }
+  ]
+}
